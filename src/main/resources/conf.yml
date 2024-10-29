@@ -1,0 +1,29 @@
+dataSources:
+  db1: !!org.apache.commons.dbcp.BasicDataSource
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/db1
+    username: root
+    password: root
+
+  db2: !!org.apache.commons.dbcp.BasicDataSource
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/db2
+    username: root
+    password: root
+
+  db3: !!org.apache.commons.dbcp.BasicDataSource
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/db3
+    username: root
+    password: root
+
+shardingRule:
+  tables:
+    users:
+      actualDataNodes: db1.users
+    item:
+      actualDataNodes: db${2..3}.item
+      databaseStrategy:
+        inline:
+          shardingColumn: id
+          algorithmExpression: db${id % 2 + 2}
