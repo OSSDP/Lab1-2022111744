@@ -16,6 +16,6 @@ public class Demo {
         System.out.println(stmt.executeUpdate("insert into users(id, name) values(1, 'zhangsan')"));
         System.out.println(stmt.executeUpdate("insert into item(id, value) values(1, 100)"));
         System.out.println(stmt.executeUpdate("insert into item(id, value) values(2, 200)"));
-        //first change
+        //first 
     }
 }
