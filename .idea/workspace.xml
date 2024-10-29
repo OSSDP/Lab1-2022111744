@@ -33,7 +33,7 @@
     &quot;Application.Demo.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;C4&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
@@ -98,6 +98,8 @@
       <workItem from="1730171958619" duration="72000" />
       <workItem from="1730172152862" duration="5000" />
       <workItem from="1730172345025" duration="22000" />
+      <workItem from="1730173348464" duration="5000" />
+      <workItem from="1730173362955" duration="28000" />
     </task>
     <servers />
   </component>
